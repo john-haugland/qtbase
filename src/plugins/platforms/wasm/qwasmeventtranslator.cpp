@@ -719,7 +719,7 @@ int QWasmEventTranslator::handleTouch(int eventType, const EmscriptenTouchEvent 
 
         QWindowSystemInterface::TouchPoint touchPoint;
 
-        touchPoint.area = QRect(0, 0, 8, 8);
+        touchPoint.area = QRect(0, 0, 64, 64);
         touchPoint.id = touches->identifier;
         touchPoint.pressure = 1.0;
 
